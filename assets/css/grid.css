@@ -1,0 +1,26 @@
+/*
+formula para el ancho de las columnas*/
+
+.uno {
+  width: 66%;
+  border: 1px solid red;
+  height: 100px;
+}
+
+.dos {
+  width: 33.333333%;
+}
+
+.tres {
+  width: 33.333333%;
+}
+
+
+
+/*MIS ESTILOS*/
+
+@media (max-width: 450px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
