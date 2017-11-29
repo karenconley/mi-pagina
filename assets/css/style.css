@@ -4,53 +4,13 @@
   padding: 0;
 }
 
-html, body{
-  width: 100%;
-  font-size: 100%;
-  padding: 0;
-}
-
-.row:after, .row:before{
-  content: "";
-  width: 0;
-  height: 0;
-  clear: both;
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  /*
-  display: table;
-  */
-}
-
-
-
-
-/*
-Crear container
-
-.container {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-[class*="col-"] {
-  float: left;
-  min-height: 7px;
-  padding: 12px;
-}
-*/
-
 .menu {
   background-color: #272C30;
-  padding: 5px 0px;
 }
 
 li {
   display: inline-block;
   padding: 18px 10px;
-  cursor: pointer;
 }
 
 ul {
@@ -63,35 +23,36 @@ i {
   padding-top: 20px;
 }
 
-/*sección intro (foto y frase)*/
-.intro{
+
+/*sección foto y frase)*/
+.foto{
   background-image: url(../img/eu.jpg);
+  background-position: center;
+  height: 16em;
+  padding: 0;
   width: 100%;
-  height: 100vh;
   background-repeat: no-repeat;
 }
 
-.title {
-  font-weight: 200;
-  color: #fff;
-}
 
 /*textos*/
-h1 {
-  font-size: 30px;
-  margin: 20px auto;
-}
-h2 {
-  font-size: 18px;
-  margin: 20px auto 10px;
-}
-
 header h4 {
   display: inline-block;
   font-size: 20px;
   color: #fff;
   margin: 14px;
 }
+
+h1 {
+  font-size: 30px;
+  margin: 20px auto;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 20px auto 10px;
+}
+
 
 a {
   text-decoration: none;
